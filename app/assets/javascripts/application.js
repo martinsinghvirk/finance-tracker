@@ -12,7 +12,9 @@
 //
 //= require rails-ujs
 //= require jquery
+//= require jquery_ujs
 //= require twitter/bootstrap
+//= require custom
 //
 //= require turbolinks
 //= require_tree .
