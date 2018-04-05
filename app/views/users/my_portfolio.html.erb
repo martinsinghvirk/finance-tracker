@@ -1,5 +1,6 @@
 <h1>My Portfolio</h1>
 
+<!-- Stock sökning-->
 <h3>Search for Stocks</h3>
 <div id="stock-lockup">
     <%= form_tag search_stocks_path, remote: true, method: :get, id: "stock-lookup-form" do %>
@@ -15,6 +16,11 @@
         </div>
     <% end %>
 </div>
+
+<!-- Visar sökresultat -->
 <div id="results">
     <%= render 'users/result' %>
 </div>
+
+<!-- Visar lista av stocks -->
+<%= render 'users/list' %>  
